@@ -19,7 +19,7 @@ namespace WpfApp13
         {
             try
             {
-                StreamReader streamReader = new StreamReader("config.ini");//запись настроек размера таблицы
+                StreamReader streamReader = new StreamReader("config.ini");//сохранение настроек размера таблицы
                                                                            //в файл конфигурации «config.ini»
                 using (streamReader)
                 {
@@ -44,7 +44,7 @@ namespace WpfApp13
             {
                 try
                 {
-                    StreamWriter streamWriter = new StreamWriter("config.ini"); //сохранение настроек размера таблицы
+                    StreamWriter streamWriter = new StreamWriter("config.ini"); //запись настроек размера таблицы
                                                                                 //в файл конфигурации «config.ini»
                     using (streamWriter)
                     {
